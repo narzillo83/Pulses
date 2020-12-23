@@ -29,5 +29,14 @@
         width: 131px;
         height: 40px;
         font-size: 14px;
+        transition: 0.4s all;
+        border: 1px solid #c70101;
+        &:hover
+        {
+            background: #fff;
+            color: #c70101;
+           
+            
+        }
     }
 }

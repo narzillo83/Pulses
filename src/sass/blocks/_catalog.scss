@@ -43,9 +43,13 @@
     &__content
     {
         margin-top: 59px;
-        display: flex;
+        display: none;
         justify-content: space-between;
         flex-wrap: wrap;
+        &_active
+        {
+            display: flex;
+        }
     }
     &-item
     {

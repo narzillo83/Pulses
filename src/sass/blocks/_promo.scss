@@ -18,6 +18,8 @@
         font-weight: 700;
         text-transform: uppercase;
         color: #ffffff;
+        animation: fadeInRight;
+        animation-duration: 2s;
     }
     &__subheader
     {
@@ -27,6 +29,8 @@
         text-transform: uppercase;
         color: #ffffff;
         margin: 17px 0 0 0;
+        animation: fadeInLeft;
+        animation-duration: 2s;
     }
     &__icons
     {

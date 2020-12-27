@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/animate.css"/>
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/font.css">
     <link rel="stylesheet" type="text/css" href="css/slick.css"/>
@@ -79,8 +80,8 @@
 
     <section class="consultation">
         <div class="container">
-            <h2 class="title title_left">Получите бесплатную консультацию<br> по подбору пульсометра</h2>
-            <div class="consultation__descr">Просто заполните форму заявки<br> и мы перезвоним вам в течении 10 минут</div>
+            <h2 class="title title_left wow slideInLeft" data-wow-duration = "2s" data-wow-delay = "1s">Получите бесплатную консультацию<br> по подбору пульсометра</h2>
+            <div class="consultation__descr wow" data-wow-duration = "2s" data-wow-delay = "1s">Просто заполните форму заявки<br> и мы перезвоним вам в течении 10 минут</div>
             <form id="consultation-form" class="feed-form" action="#">
                 <input name="name" type="text" required placeholder="Ваше имя">
                 <input name="phone" type="tel" required placeholder="Ваш телефон">
@@ -343,7 +344,7 @@
         <div class="container">
             <h2 class="title">отзывы клиентов</h2>
             <div class="feedback__wrapper">
-                <div class="feedback__customer">
+                <div class="feedback__customer fadeInUp wow" data-wow-duration = "2s" data-wow-delay = "1s">
                     <img src="img/feed_1.png" alt="feed" class="feedback__img">
                     <div>
                         <div class="feedback__name">Ирина Иванченко</div>
@@ -355,7 +356,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="feedback__customer">
+                <div class="feedback__customer fadeInUp wow" data-wow-duration = "2s" data-wow-delay = "1s">
                     <img src="img/feed_2.png" alt="feed" class="feedback__img">
                     <div>
                         <div class="feedback__name">Иван Сёмочкин</div>
@@ -366,7 +367,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="feedback__customer">
+                <div class="feedback__customer fadeInUp wow" data-wow-duration = "2s" data-wow-delay = "1s">
                     <img src="img/feed_3.png" alt="feed" class="feedback__img">
                     <div>
                         <div class="feedback__name">Юлия Дашкина</div>
@@ -429,6 +430,7 @@
     <script src="js/slick.min.js"></script>
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
